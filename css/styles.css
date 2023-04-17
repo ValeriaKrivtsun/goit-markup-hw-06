@@ -834,9 +834,7 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     color: #FFFFFF;
     border-radius: 4px;
-    padding-left: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 16px 8px 38px;
 }
 
 .footer-input::placeholder {
@@ -962,9 +960,6 @@ body {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
-    transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 14px;
     color: #2E2F42;
     padding-left: 30px;
@@ -989,11 +984,8 @@ body {
 
 .input-icon {
     position: absolute;
-    left: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: auto;
-    margin-right: auto;
+    left: 16px;
+    top: 18%;
 }
 
 .modal-name {
@@ -1004,6 +996,7 @@ body {
     line-height: 1.16;
     letter-spacing: 0.04em;
     color: #8E8F99;
+    /*margin-top: 4px;*/
 }
 
 .modal-tel,
@@ -1015,11 +1008,12 @@ body {
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: #8E8F99;
+   /* margin-top: 4px;*/
 }
 
-/*.modal-label {
+.modal-label {
     margin-bottom: 8px;
-}*/
+}
 
 .modal-label span {
     display: block;
@@ -1060,13 +1054,11 @@ body {
     height: 120px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 14px;
     color: #2E2F42;
     padding: 10px;
     margin-top: 4px;
+    display: block;
     outline: transparent;
     background-color: transparent;
     resize: none;
